@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 250px;
+    height: 80px;
+    background: linear-gradient(to right bottom ,#d30630,#500490);
+    padding: 20px;
+    border-radius: 20px;
+}
+.btn{
+    font-size: 15px;
+    background: none;
+    border: solid 2px #fff;
+    padding: 8px;
+    border-radius: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+}
